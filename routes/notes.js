@@ -39,4 +39,11 @@ console.log(userInput);
 // res.send('post route')
 });
 
+// notesRouter.delete('/:id', (req, res) => {
+//   console.log('deleted')
+//   const { id } = req.params;
+//   res.status(200).json(id)
+
+// });
+
 module.exports = notesRouter;
